@@ -16,13 +16,13 @@ document.getElementById('Raves').addEventListener('click', e => {
 })
 
 function totalElements(){
-   document.getElementById("one").innerHTML = `There are ` +(paragraphs.length-1) +` total paragraph elements (concerts) on the page.`;
+   document.getElementById("one").innerHTML = `There are ` +(paragraphs.length) +` total paragraph elements (concerts) on the page.`;
 }
 
 function totalFestivals(){
-  document.getElementById("two").innerHTML = `I went to ` +(numFestivals.length-1) +` festivals.`;
+  document.getElementById("two").innerHTML = `I went to ` +(numFestivals.length) +` festivals.`;
 }
 
 function totalRaves(){
-  document.getElementById("three").innerHTML = `I went to ` +(numRaves .length-1) +` raves.`;
+  document.getElementById("three").innerHTML = `I went to ` +(numRaves .length) +` raves.`;
 }
